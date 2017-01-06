@@ -33,7 +33,7 @@ end
 def too_high(guess)
   if guess > settings.number + 5
     way_off_color
-    "Way too high!"
+    'Way too high!'
   else
     off_color
     'Too high!'
@@ -64,5 +64,3 @@ end
 def way_off_color
   settings.color = 'red'
 end
-
-
